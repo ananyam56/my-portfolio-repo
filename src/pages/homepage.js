@@ -2,6 +2,8 @@ import * as React from 'react';
 import Jumbotron from '../components/Jumbotron/JumbotronComponent';
 import {CardComponent} from '../components/Card/CardComponent';
 import EducationSection from '../components/EducationSection/EducationComponent';
+import SkillsComponent from '../components/SkillsGraph/SkillsComponent';
+import { ContactCard } from '../components/Contact/Contact';
 
 export default function HomePage() {
     return (
@@ -12,6 +14,9 @@ export default function HomePage() {
                 {CardComponent}
             </div>
             <EducationSection></EducationSection>
+            <SkillsComponent></SkillsComponent>
+            <div class="cards_container"
+            variant = "outline">{ContactCard}</div>
         </div>
     )
 }
