@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Jumbotron from '../components/Jumbotron/JumbotronComponent';
 import {CardComponent} from '../components/Card/CardComponent';
+import EducationSection from '../components/EducationSection/EducationComponent';
 
 export default function HomePage() {
     return (
@@ -10,6 +11,7 @@ export default function HomePage() {
             <div class="cards_container">
                 {CardComponent}
             </div>
+            <EducationSection></EducationSection>
         </div>
     )
 }

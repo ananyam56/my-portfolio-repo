@@ -9,4 +9,6 @@
     display: flex;
     margin-right: 25px;
     margin-left: 25px;
+    color: gray;
+    font-weight: 400;
 }
