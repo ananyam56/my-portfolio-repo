@@ -17,4 +17,18 @@
 }
 .jumbotron_div {
     display: grid;
+    margin-bottom: 200px;
+}
+.cards_container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.my_projects {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: gray;
 }

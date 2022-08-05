@@ -1,0 +1,12 @@
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+}
+.header_items {
+    align-items: center;
+    display: flex;
+    margin-right: 25px;
+    margin-left: 25px;
+}

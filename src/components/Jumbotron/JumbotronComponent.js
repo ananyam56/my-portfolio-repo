@@ -1,5 +1,6 @@
-import * as React from 'react';
+import * as React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
+import Header from '../Header/HeaderComponent'
 import "./Jumbotron.css"
 
 const Jumbotron = () => (
@@ -7,14 +8,15 @@ const Jumbotron = () => (
         <StaticImage 
         src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Jumbotron\back.avif"
         style={{
-            gridArea: "1/1",
+            gridArea: "2/1",
             maxHeight: 900,
         }}
         layout="fullWidth"
         />
+        <Header></Header>
         <div
         style={{
-          gridArea: "1/1",
+          gridArea: "2/1",
           position: "relative",
           placeItems: "center",
           display: "grid",
