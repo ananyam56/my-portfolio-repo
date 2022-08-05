@@ -1,0 +1,20 @@
+.jumbotron_title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    color: white;
+    margin-bottom: 300px;
+}
+.jumbotron_subtitle {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    margin-top: 0px;
+    font-weight: 5;
+    width: 900px;
+    text-align: center;
+    line-height: 50px;
+}
+.jumbotron_div {
+    display: grid;
+}
