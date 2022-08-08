@@ -1,14 +1,36 @@
-.header_container {
+
+.header_sections {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 48px;
+    margin-right: 75px;
 }
 .header_items {
     align-items: center;
     display: flex;
     margin-right: 25px;
     margin-left: 25px;
-    color: gray;
+    color: white;
     font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #597175;
+}
+.logo_container {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
+}
+.logo_style {   
+    color: white;
+    align-items: center;
+    font-weight: 5;
+    font-family:do-futuristic-font;
+    font-size: 15px;
 }

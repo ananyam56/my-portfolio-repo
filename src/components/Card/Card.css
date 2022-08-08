@@ -1,16 +1,16 @@
 .card_style {
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 100px;
 }
 .card_title {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 18px;
 }
 .card_content {
     margin-right: 20px;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 12px;
 }

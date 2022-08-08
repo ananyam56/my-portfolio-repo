@@ -1,20 +1,18 @@
 import * as React from 'react'
-import { StaticImage } from "gatsby-plugin-image"
 import Header from '../Header/HeaderComponent'
 import "./Jumbotron.css"
+import { Button } from '@mui/material'
+import DescriptionIcon from '@mui/icons-material/Description'
 
 const Jumbotron = () => (
     <div class="jumbotron_div">
-        <StaticImage 
-        src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Jumbotron\back.avif"
+        <Header
         style={{
-            gridArea: "2/1",
-            maxHeight: 900,
-        }}
-        layout="fullWidth"
-        />
-        <Header></Header>
-        <div
+            gridArea: "3/1",
+            display: "grid",
+            position: "relative",
+        }}></Header>
+        <div class="jumbotron"
         style={{
           gridArea: "2/1",
           position: "relative",
@@ -23,6 +21,19 @@ const Jumbotron = () => (
         }}>
         <h1 class="jumbotron_title">Hi, I'm Ananya</h1>
         <h2 class="jumbotron_subtitle">I'm a sophomore at Texas A&M University majoring in Computer Science!</h2>
+        <Button variant="contained"
+        size="medium"
+        className={"resume_button"}
+        style={{
+            display: 'flex',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            marginTop: -180,
+        }}
+        startIcon={<DescriptionIcon 
+        style={{
+            fontSize: 15,
+        }}/>}>Resume</Button>
         </div>
     </div>
 )

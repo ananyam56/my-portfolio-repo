@@ -2,22 +2,29 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 90px;
     color: white;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
+    font-weight: 200px;
+}
+.jumbotron {
+    background-color: #597175;
+    height: 400px;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
 }
 .jumbotron_subtitle {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-family: Arial;
+    font-size: 25px;
     color: white;
     position: absolute;
     margin-top: 0px;
     font-weight: 5;
-    width: 900px;
+    width: 300px;
     text-align: center;
-    line-height: 50px;
+    width: 700px;
+    line-height: 25px;
 }
 .jumbotron_div {
     display: grid;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .cards_container {
     display: flex;
@@ -27,8 +34,14 @@
 }
 .my_projects {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: 100px;
     text-align: center;
     color: gray;
+    margin-top: 100px;
+}
+.resume_button {
+    position: absolute;
+    font-size: 25px;
+    padding: 20px 40px;
 }
