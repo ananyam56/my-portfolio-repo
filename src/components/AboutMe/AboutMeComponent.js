@@ -8,12 +8,15 @@ const AboutMeComponent = () => (
     <div class="education_content">
             <h1 class="education_title">About Me</h1>
                 <ul class="education_bullets">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> 
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>           
+                    <li>Major in computer Science</li> 
+                    <li>Dean's List 2021-2022</li>
+                    <li>1st rank in AS & A Levels in international school in Bangalore, India</li>
+                    <li>6/8 A*s in IGCSE Curriculum</li>           
                 </ul>
+        </div>
+        <div>
+            <StaticImage className={"aboutme_icon"} 
+            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\DSC_0559 (1).JPG" alt="me"></StaticImage>
         </div>
         <div class="education_image">
             <StaticImage className = {"texasam_image"}

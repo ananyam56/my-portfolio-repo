@@ -8,7 +8,7 @@
 .jumbotron {
     background-color: #597175;
     height: 400px;
-    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
 .jumbotron_subtitle {
     font-family: Arial;
@@ -24,7 +24,7 @@
 }
 .jumbotron_div {
     display: grid;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .cards_container {
     display: flex;

@@ -18,12 +18,14 @@
     font-size: 30px;
     text-align: left;
     color: gray;
+    margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
 }
 .education_content {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-right: 90px;
 }
 .education_image{
     width: 50%;
@@ -32,7 +34,7 @@
     height: 100%;
 }
 .education_bullets {
-    font-size: 15px;
+    font-size: 18px;
 }
 .texasam_image {
     max-width: 100%;
@@ -42,4 +44,15 @@
     box-shadow: 2px 2px 2px 2px gray;
     border-radius: 10px;
     max-height: 100%;
+    z-index: 1;
+}
+.aboutme_icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: -56px;
+    border-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    z-index: 2;
+    border: 2px solid white;
 }
