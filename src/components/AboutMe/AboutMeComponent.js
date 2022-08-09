@@ -9,6 +9,7 @@ const AboutMeComponent = () => (
             <h1 class="education_title">About Me</h1>
                 <ul class="education_bullets">
                     <li>Major in computer Science</li> 
+                    <li>Cumulative GPR: 4.0/4.0</li>
                     <li>Dean's List 2021-2022</li>
                     <li>1st rank in AS & A Levels in international school in Bangalore, India</li>
                     <li>6/8 A*s in IGCSE Curriculum</li>           
