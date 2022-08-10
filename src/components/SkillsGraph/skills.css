@@ -1,10 +1,10 @@
 .skill_heading {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    margin-bottom: 100px;
     text-align: center;
     color: #B1C6C9;
-    padding-top: 100px;
+    display: flex;
+    margin-bottom: 0px;
 }
 .skills_section {
     background-color: #597175;
@@ -30,9 +30,9 @@
     margin-right: auto;
 }
 .skill_title {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     color: white;
     font-weight: 5px;
@@ -45,5 +45,7 @@
     text-align: center;
 }
 .skills_icon {
-    width: 100%
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -14,6 +14,7 @@ export const CardComponent = cardcontent.map((card) =>
         {card.image}
         <Divider></Divider>
         <h1 class="card_title">{card.title}</h1>
+        <span class="card_date"><i>{card.date}</i></span>
         <p class="card_content">{card.content}</p>
     </Card>
 )

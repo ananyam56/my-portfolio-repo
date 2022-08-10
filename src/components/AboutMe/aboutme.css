@@ -11,15 +11,21 @@
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    border-bottom: gray solid 1px;
 }
 .education_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: left;
-    color: #597175;
-    margin-bottom: 20px;
+    color: #7E989D;
+    margin-bottom: 0px;
     width: 100%;
-    display: inline-block;
+    display: flex;
+}
+.aboutme_line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .education_content {
     width: 50%;
@@ -55,4 +61,12 @@
     z-index: 2;
     border: 2px solid white;
     margin-bottom: 80px;
+}
+li span {
+    color: #F4A733;
+    font-weight: 600;
+}
+.aboutme_image {
+    display: flex;
+    width: 130px;
 }

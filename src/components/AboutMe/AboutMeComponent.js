@@ -6,13 +6,17 @@ const AboutMeComponent = () => (
     <div>
     <div class="education_section">
     <div class="education_content">
-            <h1 class="education_title">About Me</h1>
+        <div class="aboutme_line">
+            <StaticImage 
+            className = {"aboutme_image"}
+            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="education_title">About <span>&nbsp;Me</span></h1>
+            </div> 
                 <ul class="education_bullets">
-                    <li>Major in Computer Science at Texas A&M University</li> 
-                    <li>Cumulative GPR: 4.0/4.0</li>
+                    <li>Major in <span>Computer Science</span> at Texas A&M University</li> 
+                    <li>Cumulative GPR: <span>4.0/4.0</span></li>
                     <li>Dean's List 2021-2022</li>
-                    <li>1st rank in AS & A Levels in international school in Bangalore, India</li>
-                    <li>6/8 A*s in IGCSE Curriculum</li>           
+                    <li><span>1st rank</span> in AS & A Levels in international school in Bangalore, India</li>
+                    <li><span>6/8 A*s</span> in IGCSE Curriculum</li>           
                 </ul>
         </div>
         <div>

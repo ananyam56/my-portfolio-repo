@@ -19,9 +19,11 @@ const Jumbotron = () => (
           placeItems: "center",
           display: "grid",
         }}>
-        <h1 class="jumbotron_title">Hi, I'm Ananya</h1>
+        <div class="test">
+        <h1 class="jumbotron_title">Hi, I'm&nbsp; <span>Ananya</span></h1>
+        </div>
         <h2 class="jumbotron_subtitle">I'm a sophomore at Texas A&M University majoring in Computer Science!</h2>
-        <Button variant="contained"
+        <Button variant="outlined"
         size="medium"
         className={"resume_button"}
         style={{
@@ -29,6 +31,8 @@ const Jumbotron = () => (
             alignItems: 'center',
             flexWrap: 'wrap',
             marginTop: -180,
+            color: "white",
+            backgroundColor: "#F4A733"
         }}
         startIcon={<DescriptionIcon 
         style={{

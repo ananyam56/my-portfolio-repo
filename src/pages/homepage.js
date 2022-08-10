@@ -5,6 +5,7 @@ import ExperienceSection from '../components/ExperienceSection/EducationComponen
 import {SkillsComponent} from '../components/SkillsGraph/SkillsComponent';
 import { ContactCard } from '../components/Contact/Contact';
 import AboutMeComponent from '../components/AboutMe/AboutMeComponent';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export default function HomePage() {
     return (
@@ -12,12 +13,22 @@ export default function HomePage() {
             <Jumbotron></Jumbotron>
             <AboutMeComponent></AboutMeComponent>
             <ExperienceSection></ExperienceSection>
-            <h1 class="my_projects">My Projects</h1>
+            <div class="projects_line">
+            <StaticImage 
+            className = {"projects_image"}
+            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h1 class="my_projects">My <span>&nbsp;Projects</span></h1>
+            </div>
             <div class="cards_container">
                 {CardComponent}
             </div>
             <div class="skills_section">
-                <h1 class="skill_heading">My Skills</h1>
+            <div class="skills_line">
+            <StaticImage 
+            className = {"skills_image"}
+            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\SkillsGraph\Ananya Maddali-1 (2) (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
+                <h1 class="skill_heading">My <span>&nbsp;Skills</span></h1>
+                </div>
                 <div class="skill_columns">
                 {SkillsComponent}
                 </div>

@@ -4,7 +4,16 @@
     color: #DDE6E5;
     margin-bottom: 100px;
     font-weight: 200px;
+    display: flex;
 }
+/* .name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    color: #F2C574;
+    margin-bottom: 100px;
+    font-weight: 200px;
+    display: flex;
+} */
 .jumbotron {
     background-color: #597175;
     height: 400px;
@@ -35,13 +44,38 @@
 .my_projects {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    margin-bottom: 100px;
     text-align: center;
     color: #597175;
+    display: flex;
+    margin-bottom: 0px;
+}
+.projects_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
     margin-top: 100px;
 }
 .resume_button {
     position: absolute;
     font-size: 25px;
     padding: 20px 40px;
+}
+.skills_image {
+    display: flex;
+    width: 100px;
+}
+h1 span{
+    color: #F4A733;
+}
+.projects_image {
+    width: 100px;
+    display: flex;
+}
+.skills_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 100px;
 }

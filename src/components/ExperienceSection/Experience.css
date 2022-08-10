@@ -11,15 +11,21 @@
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    background-color: #597175;
-    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+    border-bottom: gray solid 1px;
 }
 .experience_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
-    color: #DDE6E5;
-    margin-bottom: 100px;
+    color: #7e989d;
+    margin-bottom: 0px;
+    display: flex;
+}
+.experience_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .stack_heading {
     color: #B1C6C9;
@@ -27,15 +33,21 @@
     margin-bottom: 0px;
 }
 .stack_subheading {
-    color: #7E989D;
+    color: #B1C6C9;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 0px;
 }
 .stack_intern, .stack_inspirit, .stack_research {
-    box-shadow: 0 0 4px white;
+    box-shadow: 10px  10px 10px #7E989D;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: #597175
 }
 .stack_bullets {
     color: white;
+}
+.experience_image {
+    width: 100px;
+    display: flex;
+    /* margin-bottom: 100px; */
 }

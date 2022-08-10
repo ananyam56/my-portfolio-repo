@@ -6,7 +6,7 @@ const skillscontent = [
         id: 1,
         title: "Python",
         content: "",
-        image:<Icon className="skills_icon" icon="akar-icons:python-fill" color="#B1C6C9" width="112" height="112" hAlign='center'/>,
+        image:<Icon className="skills_icon" icon="akar-icons:python-fill" color="#b1c6c9" width="112" height="112" hAlign='center'/>,
     },
     {
         id: 2,
