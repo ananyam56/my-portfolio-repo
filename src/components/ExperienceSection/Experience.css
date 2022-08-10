@@ -15,7 +15,7 @@
 }
 .experience_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #7e989d;
     margin-bottom: 0px;
@@ -31,11 +31,13 @@
     color: #B1C6C9;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 .stack_subheading {
     color: #B1C6C9;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 0px;
+    font-size: 15px;
 }
 .stack_intern, .stack_inspirit, .stack_research {
     box-shadow: 10px  10px 10px #7E989D;
@@ -45,6 +47,7 @@
 }
 .stack_bullets {
     color: white;
+    font-size: 13px;
 }
 .experience_image {
     width: 100px;
