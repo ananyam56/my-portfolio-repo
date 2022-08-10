@@ -2,12 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 100px;
     flex-direction: row;
     flex: 1;
-    box-shadow: 5px 5px 4px #dde6e5;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
@@ -17,7 +16,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: left;
-    color: gray;
+    color: #597175;
     margin-bottom: 20px;
     width: 100%;
     display: inline-block;
@@ -41,18 +40,19 @@
     border-width: 100px;
     border: solid;
     border-color: white;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 0 0 10px gray;
     border-radius: 10px;
     max-height: 100%;
     z-index: 1;
 }
 .aboutme_icon {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     margin-right: -56px;
     border-color: white;
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 0 0 5px gray;
     z-index: 2;
     border: 2px solid white;
+    margin-bottom: 80px;
 }

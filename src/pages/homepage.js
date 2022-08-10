@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Jumbotron from '../components/Jumbotron/JumbotronComponent';
 import {CardComponent} from '../components/Card/CardComponent';
-import EducationSection from '../components/EducationSection/EducationComponent';
+import ExperienceSection from '../components/ExperienceSection/EducationComponent';
 import {SkillsComponent} from '../components/SkillsGraph/SkillsComponent';
 import { ContactCard } from '../components/Contact/Contact';
 import AboutMeComponent from '../components/AboutMe/AboutMeComponent';
@@ -11,7 +11,7 @@ export default function HomePage() {
         <div>
             <Jumbotron></Jumbotron>
             <AboutMeComponent></AboutMeComponent>
-            <EducationSection></EducationSection>
+            <ExperienceSection></ExperienceSection>
             <h1 class="my_projects">My Projects</h1>
             <div class="cards_container">
                 {CardComponent}
@@ -22,7 +22,7 @@ export default function HomePage() {
                 {SkillsComponent}
                 </div>
             </div>
-            <div class="cards_container"
+            <div
             variant = "outline">{ContactCard}</div>
         </div>
     )

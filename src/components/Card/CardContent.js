@@ -4,27 +4,21 @@ import * as React from 'react'
 const cardcontent = [
     {
         id: 1,
-        title: "Project 1",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, ex id ultrices condimentum, mi velit posuere enim, vitae laoreet nisl metus vitae turpis. Aenean tempus ex scelerisque quam finibus, sed dictum nunc dictum. In ut ligula suscipit, porttitor nisi at, lacinia odio. ",
-        image: <StaticImage src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\cardphoto.avif"></StaticImage>,
+        title: "Python Project - 2021",
+        content: "I performed an engineering analysis of energy consumption around the world using various python packages such as Numpy and Matplotlib as a final project during my freshman year!",
+        image: <StaticImage src="./Capture.PNG" className="project_image"></StaticImage>,
     },
     {
         id: 2,
-        title: "Project 2",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, ex id ultrices condimentum, mi velit posuere enim, vitae laoreet nisl metus vitae turpis. Aenean tempus ex scelerisque quam finibus, sed dictum nunc dictum. In ut ligula suscipit, porttitor nisi at, lacinia odio. ",
-        image: <StaticImage src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\cardphoto.avif"></StaticImage>,
+        title: "Stanford's Inspirit AI - 2020",
+        content: "I have programming experience utilizing linear regression, natural language processing, and neural networks through this summer workshop. The final project involved combining criminal justice and AI to predict the probability of defendants recommitting crimes; analyzed models involving Random Forests, Logistic Regression, and SQL ",
+        image: <StaticImage src="./Capture1.png" className="project_image"></StaticImage>,
     },
     {
         id: 3,
-        title: "Project 3",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, ex id ultrices condimentum, mi velit posuere enim, vitae laoreet nisl metus vitae turpis. Aenean tempus ex scelerisque quam finibus, sed dictum nunc dictum. In ut ligula suscipit, porttitor nisi at, lacinia odio. ",
-        image: <StaticImage src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\cardphoto.avif"></StaticImage>,
-    },
-    {
-        id: 4,
-        title: "Project 4",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta, ex id ultrices condimentum, mi velit posuere enim, vitae laoreet nisl metus vitae turpis. Aenean tempus ex scelerisque quam finibus, sed dictum nunc dictum. In ut ligula suscipit, porttitor nisi at, lacinia odio. ",
-        image: <StaticImage src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\cardphoto.avif"></StaticImage>,
+        title: "Spruce Technology Website - 2022",
+        content: "I worked on a few components for the Spruce Technology website through my internship. I used React, JavaScript, HTML, and CSS for these modules.",
+        image: <StaticImage  src="./Capture2.jpg" className = "project_image"></StaticImage>,
     }
 ]
 

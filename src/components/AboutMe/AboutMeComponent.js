@@ -8,7 +8,7 @@ const AboutMeComponent = () => (
     <div class="education_content">
             <h1 class="education_title">About Me</h1>
                 <ul class="education_bullets">
-                    <li>Major in computer Science</li> 
+                    <li>Major in Computer Science at Texas A&M University</li> 
                     <li>Cumulative GPR: 4.0/4.0</li>
                     <li>Dean's List 2021-2022</li>
                     <li>1st rank in AS & A Levels in international school in Bangalore, India</li>
@@ -21,7 +21,7 @@ const AboutMeComponent = () => (
         </div>
         <div class="education_image">
             <StaticImage className = {"texasam_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\EducationSection\texasam.avif"
+            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\texas_am.avif"
             ></StaticImage>
         </div>
     </div>

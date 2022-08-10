@@ -1,7 +1,7 @@
 .jumbotron_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 90px;
-    color: white;
+    font-size: 75px;
+    color: #DDE6E5;
     margin-bottom: 100px;
     font-weight: 200px;
 }
@@ -13,7 +13,7 @@
 .jumbotron_subtitle {
     font-family: Arial;
     font-size: 25px;
-    color: white;
+    color: #DDE6E5;
     position: absolute;
     margin-top: 0px;
     font-weight: 5;
@@ -29,15 +29,15 @@
 .cards_container {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .my_projects {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     margin-bottom: 100px;
     text-align: center;
-    color: gray;
+    color: #597175;
     margin-top: 100px;
 }
 .resume_button {

@@ -7,8 +7,8 @@
 .header_items {
     align-items: center;
     display: flex;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 30px;
+    margin-left: 10px;
     color: white;
     font-weight: 400;
     font-size: 15px;
@@ -18,12 +18,14 @@
     display: flex;
     justify-content: space-between;
     background-color: #597175;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .logo_container {
     display: flex;
     align-items: center;
     margin-left: 75px;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 70px;
     height: 70px;
 }
@@ -33,4 +35,7 @@
     font-weight: 5;
     font-family:do-futuristic-font;
     font-size: 15px;
+}
+.header_icon {
+    margin-bottom: 18px;
 }

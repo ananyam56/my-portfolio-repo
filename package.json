@@ -22,6 +22,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@iconify/react": "^3.2.2",
     "prettier": "^2.7.1"
   },
   "keywords": [

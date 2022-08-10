@@ -1,7 +1,26 @@
-.contact_card {
-    width: 1000px;
+.email_card, .git_card, .resume_card{
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.contact_title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #597175;
+    width: 100%;
+    display: inline-block;
+    margin-top: 70px;
+}
+.contact_card {
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 200px;
+}
+.contact_card_container {
+    display: flex;
+    justify-content: space-between;
 }

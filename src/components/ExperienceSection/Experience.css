@@ -1,0 +1,41 @@
+.experience_section {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #597175;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+.experience_title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #DDE6E5;
+    margin-bottom: 100px;
+}
+.stack_heading {
+    color: #B1C6C9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+.stack_subheading {
+    color: #7E989D;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+}
+.stack_intern, .stack_inspirit, .stack_research {
+    box-shadow: 0 0 4px white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.stack_bullets {
+    color: white;
+}
