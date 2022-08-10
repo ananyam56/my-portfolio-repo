@@ -3,7 +3,9 @@ import Header from '../Header/HeaderComponent'
 import "./Jumbotron.css"
 import { Button } from '@mui/material'
 import DescriptionIcon from '@mui/icons-material/Description'
+import resume from "./resume.pdf"
 
+console.log(resume)
 const Jumbotron = () => (
     <div class="jumbotron_div">
         <Header
@@ -25,6 +27,9 @@ const Jumbotron = () => (
         <h2 class="jumbotron_subtitle">I'm a sophomore at Texas A&M University majoring in Computer Science!</h2>
         <Button variant="outlined"
         size="medium"
+        href={resume}
+        rel="import"
+        target="_blank"
         className={"resume_button"}
         style={{
             display: 'flex',

@@ -13,7 +13,7 @@ export default function HomePage() {
             <Jumbotron></Jumbotron>
             <AboutMeComponent></AboutMeComponent>
             <ExperienceSection></ExperienceSection>
-            <div class="projects_line">
+            <div id = "section3" class="projects_line">
             <StaticImage 
             className = {"projects_image"}
             src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,7 +22,7 @@ export default function HomePage() {
             <div class="cards_container">
                 {CardComponent}
             </div>
-            <div class="skills_section">
+            <div id = "section4" class="skills_section">
             <div class="skills_line">
             <StaticImage 
             className = {"skills_image"}
@@ -34,7 +34,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div
-            variant = "outline">{ContactCard}</div>
+            id = "section5" variant = "outline">{ContactCard}</div>
         </div>
     )
 }

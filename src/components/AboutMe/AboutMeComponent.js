@@ -3,7 +3,7 @@ import "./aboutme.css"
 import { StaticImage } from 'gatsby-plugin-image'
 
 const AboutMeComponent = () => (
-    <div>
+    <div id = "section1" >
     <div class="education_section">
     <div class="education_content">
         <div class="aboutme_line">

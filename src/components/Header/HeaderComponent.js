@@ -10,10 +10,11 @@ const Header = () => (
         src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Header\ananya maddali-1.png"></StaticImage>
         </div>
         <div  class="header_sections">
-        <Icon className = "header_icon" icon="ant-design:project-filled" color="white" width="20" height="20" /><h1 class="header_items">Projects</h1>
-        <Icon className = "header_icon" icon="carbon:education" color="white" width="20" height="20" /><h1 class="header_items">Education</h1>
-        <Icon className = "header_icon" icon="bi:tools" color="white" width="20" height="20" /><h1 class="header_items">Skills</h1>
-        <Icon className = "header_icon" icon="ant-design:mail-filled" color="white" width="20" height="20" /><h1 class="header_items">Contact</h1>
+        <Icon className = "header_icon" icon="icon-park-outline:me" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section1">About Me</a></h1>
+        <Icon className = "header_icon" icon="carbon:education" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section2">Experience</a></h1>
+        <Icon className = "header_icon" icon="ant-design:project-filled" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section3">Projects</a></h1>
+        <Icon className = "header_icon" icon="bi:tools" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section4">Skills</a></h1>
+        <Icon className = "header_icon" icon="ant-design:mail-filled" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section5">Contact</a></h1>
         </div>
     </div>
 )

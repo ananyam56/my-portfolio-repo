@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const ExperienceSection = () => (
     <div>
-    <div class="experience_section">
+    <div id = "section2" class="experience_section">
         <div class="experience_content">
             <div class="experience_line">
         <StaticImage 
