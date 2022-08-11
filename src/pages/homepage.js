@@ -6,6 +6,7 @@ import {SkillsComponent} from '../components/SkillsGraph/SkillsComponent';
 import { ContactCard } from '../components/Contact/Contact';
 import AboutMeComponent from '../components/AboutMe/AboutMeComponent';
 import { StaticImage } from 'gatsby-plugin-image';
+import FooterComponent from '../components/Footer/footer';
 
 export default function HomePage() {
     return (
@@ -35,6 +36,7 @@ export default function HomePage() {
             </div>
             <div
             id = "section5" variant = "outline">{ContactCard}</div>
+            <FooterComponent></FooterComponent>
         </div>
     )
 }

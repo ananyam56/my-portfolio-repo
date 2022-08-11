@@ -39,11 +39,15 @@
     margin-top: 0px;
     font-size: 15px;
 }
-.stack_intern, .stack_inspirit, .stack_research {
+.stack_intern, .stack_research {
     box-shadow: 7px 7px 7px #7E989D;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #597175
+    background-color: #597175;
+    transition: transform 0.3s;
+}
+.stack_intern:hover, .stack_research:hover {
+    transform: scale(1.02);
 }
 .stack_bullets {
     color: white;

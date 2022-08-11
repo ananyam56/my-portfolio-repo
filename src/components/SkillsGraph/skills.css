@@ -29,6 +29,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+.skills_icon:hover {
+    position: relative;
+    top: -15px;
+}
 .skill_title {
     font-size: 14px;
     margin-top: 0px;
@@ -48,4 +52,6 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    transition: top ease 0.5s;
+    top: 0;
 }

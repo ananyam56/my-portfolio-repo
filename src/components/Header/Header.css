@@ -2,7 +2,7 @@
 .header_sections {
     display: flex;
     align-items: center;
-    margin-right: 75px;
+    margin-right: 100px;
 }
 .header_items {
     align-items: center;
@@ -11,28 +11,34 @@
     margin-left: 10px;
     color: white;
     font-weight: 400;
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition-duration: 0.2s;
 }
 .header_items a {
     color: white;
     text-decoration: none;
     font-weight: normal;
 }
+.header_items a:hover {
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
 .header_container {
     display: flex;
     justify-content: space-between;
     background-color: #597175;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 .logo_container {
     display: flex;
     align-items: center;
-    margin-left: 75px;
+    margin-left: 100px;
     width: 130px;
     height: 130px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 .logo_style {   
     color: white;
@@ -42,5 +48,11 @@
     font-size: 15px;
 }
 .header_icon {
-    margin-bottom: 28px;
+    margin-bottom: 0px;
+    transition-duration: 0.2s;
+}
+.header_icon:hover {
+    width: 25px;
+    height: 25px;
+    transition-duration: 0.2s;
 }

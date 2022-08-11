@@ -50,6 +50,12 @@
     border-radius: 10px;
     max-height: 100%;
     z-index: 1;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.texasam_image:hover {
+    position: relative;
+    top: -15px;
 }
 .aboutme_icon {
     width: 140px;
@@ -61,6 +67,8 @@
     z-index: 2;
     border: 2px solid white;
     margin-bottom: 80px;
+    top: 0;
+    transition: top ease 0.5s;
 }
 li span {
     color: #F4A733;
@@ -69,4 +77,8 @@ li span {
 .aboutme_image {
     display: flex;
     width: 130px;
+}
+.aboutme_icon:hover {
+    position: relative;
+    top: -15px;
 }

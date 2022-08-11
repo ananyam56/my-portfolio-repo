@@ -7,6 +7,19 @@
     flex-direction: column;
     box-shadow: 0 0 1px 1px gray;
 }
+.hover_text_cards {
+    display: none;
+    transition: 0.8s;
+    font-size: 16px;
+}
+.email_card:hover p, .resume_card:hover p, .git_card:hover p {
+    display: flex;
+}
+.git_card a, .resume_card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: normal;
+}
 .contact_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
@@ -19,7 +32,7 @@
 .contact_card {
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .contact_card_container {
     display: flex;
@@ -27,7 +40,7 @@
 }
 .contact_text {
     font-size: 16px;
-    color: black;
+    color: #597175;
 }
 .contact_line {
     margin-top: 100px;
