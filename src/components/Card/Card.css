@@ -6,7 +6,7 @@
 }
 .card_style:hover {
     transform: scale(1.05);
-    transition: transform 0.7s;
+    transition: transform 0.7ys;
 }
 .card_title {
     text-align: center;

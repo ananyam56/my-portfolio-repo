@@ -8,12 +8,13 @@
     box-shadow: 0 0 1px 1px gray;
 }
 .hover_text_cards {
-    display: none;
-    transition: 0.8s;
+    opacity: 0;
     font-size: 16px;
+    transition: all 200ms ease-out;
 }
 .email_card:hover p, .resume_card:hover p, .git_card:hover p {
-    display: flex;
+    transition-duration: 0.5s;
+    opacity: 1;
 }
 .git_card a, .resume_card a {
     color: blue;
