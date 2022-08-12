@@ -35,28 +35,32 @@ const cardcontent = [
         title: "Training Website - News Blog",
         date: "June - August 2022",
         content: "I used WordPress, Divi, CSS, and HTML for this website.",
-        image: <StaticImage src="./Capture3.PNG" className = "project_image"></StaticImage>
+        image: <StaticImage src="./Capture3.PNG" className = "project_image"></StaticImage>,
+        link: "http://sprucetech.dev.sprucetech.com/",
     },
     {
         id: 5,
         title: "Real Estate Website",
         date: "June - August 2022",
         content: "I used WordPress, HTML, and CSS for this website.",
-        image: <StaticImage src="./realestatewebsite.PNG" className="project_image"></StaticImage>
+        image: <StaticImage src="./realestatewebsite.PNG" className="project_image"></StaticImage>,
+        link: "https://github.com/ananyam56/realestatewebsite",
     },
     {
         id: 6,
         title: "Blog Website",
         date: "June - August 2022",
         content: "I used WordPress, HTML, and CSS for this website.",
-        image: <StaticImage src="./blogwebsite.PNG" className="project_image"></StaticImage>
+        image: <StaticImage src="./blogwebsite.PNG" className="project_image"></StaticImage>,
+        link: "https://github.com/ananyam56/blogwebsite",
     },
     {
         id: 7,
         title: "Corporate Website",
         date: "June - August 2022",
         content: "I used WordPress, HTML, and CSS for this website.",
-        image: <StaticImage src="./corporatewebsite.PNG" className="project_image"></StaticImage>
+        image: <StaticImage src="./corporatewebsite.PNG" className="project_image"></StaticImage>,
+        link: "https://github.com/ananyam56/corporatewebsite",
     }
 ]
 
