@@ -2,8 +2,8 @@
     padding-top: 100px;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 100px;
     flex-direction: row;
     flex: 1;
@@ -40,7 +40,7 @@
     font-size: 15px;
 }
 .stack_intern, .stack_research {
-    box-shadow: 7px 7px 7px #7E989D;
+    box-shadow: 6px 6px 6px #7E989D;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #597175;
@@ -48,10 +48,11 @@
 }
 .stack_intern:hover, .stack_research:hover {
     transform: scale(1.02);
+    box-shadow: 9px 9px 9px #7E989D;
 }
 .stack_bullets {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
 }
 .experience_image {
     width: 100px;

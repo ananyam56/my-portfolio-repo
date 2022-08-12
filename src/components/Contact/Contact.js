@@ -3,7 +3,7 @@ import "./contact.css"
 import {Card} from '@mui/material'
 import { Icon } from '@iconify/react';
 import { StaticImage } from 'gatsby-plugin-image';
-import resume from "./resume.pdf"
+import resume from './resume.pdf';
 
 console.log(resume)
 export const ContactCard = (

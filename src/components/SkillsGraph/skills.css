@@ -10,8 +10,8 @@
     background-color: #597175;
     padding-bottom: 100px;
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
 }
 .skill_style {
     display: flex;
@@ -19,15 +19,15 @@
     margin-bottom: 70px;
     margin-left: 30px;
     margin-right: 30px;
-    width: 150px;
+    width: 170px;
 }
 .skill_columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    /* max-width: 1140px; */
+    /* margin-left: 50px;
+    margin-right: 50px; */
 }
 .skills_icon:hover {
     position: relative;
@@ -35,7 +35,7 @@
 }
 .skill_title {
     font-size: 14px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
     text-align: center;
     color: white;

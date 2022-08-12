@@ -2,7 +2,7 @@
 .header_sections {
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 .header_items {
     align-items: center;
@@ -29,8 +29,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #597175;
-    padding-left: 100px;
-    padding-right: 70px;
 }
 .logo_container {
     display: flex;

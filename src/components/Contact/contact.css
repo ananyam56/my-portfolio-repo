@@ -1,8 +1,8 @@
 .email_card, .git_card, .resume_card{
     align-items: center;
     justify-content: center;
-    width: 230px;
-    height: 230px;
+    width: 270px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 1px 1px gray;
@@ -31,8 +31,8 @@
     align-items: center;
 }
 .contact_card {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 150px;
 }
 .contact_card_container {
