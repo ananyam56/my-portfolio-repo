@@ -5,8 +5,9 @@
     flex: 1;
 }
 .card_style:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s;
+    /* transform: scale(1.05);
+    transition: transform 0.5s; */
+    box-shadow: 0 8px 7px -7px gray;
 }
 .card_title {
     text-align: center;
