@@ -101,7 +101,7 @@ li span {
 
 @media only screen and (max-width: 950px) {
     .aboutme_icon {
-        display: none;
+        display: none!important;
     }
     .education_bullets {
         margin-right: 20px;
