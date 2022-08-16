@@ -20,6 +20,7 @@ const AboutMeComponent = () => (
                     <li><span>6/8 A*s</span> in IGCSE Curriculum</li>           
                 </ul>
         </div>
+        <div class="about_me_images">
         <div>
             <StaticImage className={"aboutme_icon"} 
             src="./DSC_0559 (1).JPG" alt="me"></StaticImage>
@@ -28,6 +29,7 @@ const AboutMeComponent = () => (
             <StaticImage className = {"texasam_image"}
             src="./texas_am.avif"
             ></StaticImage>
+        </div>
         </div>
     </div>
     </div>
