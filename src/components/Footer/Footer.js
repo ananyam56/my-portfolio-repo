@@ -9,7 +9,7 @@ const FooterComponent = () => (
         <StaticImage
         src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Header\ananya maddali-1.png"></StaticImage>
         </div>
-        <div  class="header_sections">
+        <div  class="footer_sections">
         <h1 class="header_item"><a href="#section1">About Me</a></h1>
         <Divider
         className={"footer_divider"}></Divider>
@@ -19,10 +19,7 @@ const FooterComponent = () => (
         <h1 class="header_item"><a href="#section3">Projects</a></h1>
         <Divider
         className={"footer_divider"}></Divider>
-        <h1 class="header_item"><a href="#section4">Skills</a></h1>
-        <Divider
-        className={"footer_divider"}></Divider>
-        <h1 class="header_item"><a href="#section5">Contact</a></h1>
+        <h1><h1 class="header_item"><a href="#section4">Skills</a></h1></h1>
         </div>
     </div>
 )

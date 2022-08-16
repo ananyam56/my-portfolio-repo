@@ -4,7 +4,7 @@
     margin-bottom: 100px;
     /* flex: 1; */
     display: inline-block;
-    width: 300px;
+    max-width: 300px;
 }
 .card_style:hover {
     transform: scale(1.05);
@@ -34,4 +34,37 @@
     bottom: -30px;
     position: relative;
     margin-left: 20px;
+    transition: top ease 1s;
+}
+.project_icon:hover {
+    position: relative;
+    bottom: -25px;
+}
+
+@media only screen and (max-width: 1215px) {
+    .cards_container {
+        justify-content: center;
+    }
+    .card_style {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .project_icon {
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .card_style {
+        max-width: 950px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cards_container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }

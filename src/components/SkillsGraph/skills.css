@@ -6,10 +6,15 @@
     display: flex;
     margin-bottom: 0px;
 }
-.skills_section {
+.container_5 {
     background-color: #597175;
-    padding-bottom: 100px;
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+.skills_section {
+    padding-bottom: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     /* padding-left: 50px;
     padding-right: 50px; */
 }
@@ -54,4 +59,12 @@
     margin-right: auto;
     transition: top ease 0.5s;
     top: 0;
+}
+
+@media only screen and (max-width: 780px) {
+    .skill_style {
+        width: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }

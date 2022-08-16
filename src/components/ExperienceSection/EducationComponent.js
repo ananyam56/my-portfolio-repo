@@ -4,7 +4,7 @@ import { Stack } from '@mui/material'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const ExperienceSection = () => (
-    <div>
+    <div class="container_3">
     <div id = "section2" class="experience_section">
         <div class="experience_content">
             <div class="experience_line">

@@ -3,6 +3,7 @@ import "./aboutme.css"
 import { StaticImage } from 'gatsby-plugin-image'
 
 const AboutMeComponent = () => (
+    <div class="container_2">
     <div id = "section1" >
     <div class="education_section">
     <div class="education_content">
@@ -28,6 +29,7 @@ const AboutMeComponent = () => (
             src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\texas_am.avif"
             ></StaticImage>
         </div>
+    </div>
     </div>
     </div>
 )

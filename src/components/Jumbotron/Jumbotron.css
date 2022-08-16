@@ -1,6 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+.container_4 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .jumbotron_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 70px;
@@ -18,8 +23,8 @@ html {
     display: flex;
 } */
 .jumbotron {
-    background-color: #597175;
     height: 400px;
+    background-color: #597175;
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
 .jumbotron_subtitle {
@@ -29,11 +34,10 @@ html {
     position: absolute;
     margin-top: 0px;
     font-weight: 5;
-    width: 300px;
     text-align: center;
-    width: 700px;
     line-height: 25px;
     margin-bottom: 30px;
+    width: 500px;
 }
 .jumbotron_div {
     display: grid;
@@ -42,8 +46,8 @@ html {
 .cards_container {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     flex-wrap: wrap;
 }
 .my_projects {
@@ -83,4 +87,32 @@ h1 span{
     align-items: center;
     margin-bottom: 50px;
     padding-top: 100px;
+}
+
+@media only screen and (max-width: 750px) {
+    .jumbotron_subtitle {
+        width: auto;
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-bottom: 60px;
+    }
+    .jumbotron_title {
+        font-size: 45px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .jumbotron_subtitle {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .projects_image {
+        width: 50px;
+    }
+    .skills_image {
+        width: 50px;
+    }
 }

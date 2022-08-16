@@ -2,16 +2,16 @@
     padding-top: 100px;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 100px;
     flex-direction: row;
     flex: 1;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    border-bottom: gray solid 1px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
 }
 .experience_title {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,4 +58,26 @@
     width: 100px;
     display: flex;
     /* margin-bottom: 100px; */
+}
+.container_3 {
+    border-bottom: gray solid 1px;
+}
+@media only screen and (max-width: 600px) {
+    .experience_section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .stack_intern, .stack_research {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .experience_image {
+        width: 50px!important;
+    }
+    .experience_title {
+        font-size: 20px;
+    }
 }

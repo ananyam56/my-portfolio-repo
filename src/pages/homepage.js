@@ -14,6 +14,7 @@ export default function HomePage() {
             <Jumbotron></Jumbotron>
             <AboutMeComponent></AboutMeComponent>
             <ExperienceSection></ExperienceSection>
+            <div class="container_4">
             <div id = "section3" class="projects_line">
             <StaticImage 
             className = {"projects_image"}
@@ -23,6 +24,8 @@ export default function HomePage() {
             <div class="cards_container">
                 {CardComponent}
             </div>
+            </div>
+            <div class="container_5">
             <div id = "section4" class="skills_section">
             <div class="skills_line">
             <StaticImage 
@@ -33,6 +36,7 @@ export default function HomePage() {
                 <div class="skill_columns">
                 {SkillsComponent}
                 </div>
+            </div>
             </div>
             <div
             id = "section5" variant = "outline">{ContactCard}</div>
