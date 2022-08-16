@@ -10,7 +10,7 @@ const ExperienceSection = () => (
             <div class="experience_line">
         <StaticImage 
             className = {"experience_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="experience_title">My <span>&nbsp;Experience</span></h1>
+            src="../Card/Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="experience_title">My <span>&nbsp;Experience</span></h1>
             </div>
             <div class="stacks_container">
             <Stack 

@@ -10,7 +10,7 @@ const AboutMeComponent = () => (
         <div class="aboutme_line">
             <StaticImage 
             className = {"aboutme_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="education_title">About <span>&nbsp;Me</span></h1>
+            src="./Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="education_title">About <span>&nbsp;Me</span></h1>
             </div> 
                 <ul class="education_bullets">
                     <li>Major in <span>Computer Science</span> at Texas A&M University</li> 
@@ -22,11 +22,11 @@ const AboutMeComponent = () => (
         </div>
         <div>
             <StaticImage className={"aboutme_icon"} 
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\DSC_0559 (1).JPG" alt="me"></StaticImage>
+            src="./DSC_0559 (1).JPG" alt="me"></StaticImage>
         </div>
         <div class="education_image">
             <StaticImage className = {"texasam_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\texas_am.avif"
+            src="./texas_am.avif"
             ></StaticImage>
         </div>
     </div>

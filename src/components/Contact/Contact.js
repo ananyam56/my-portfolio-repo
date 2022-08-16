@@ -11,7 +11,7 @@ export const ContactCard = (
         <div class="contact_line">
             <StaticImage 
             className = {"contact_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\AboutMe\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
+            src="../AboutMe/Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
         <h1 class="contact_title">Contact <span>&nbsp;Me</span></h1>
         </div>
         <div class="contact_card_container">
