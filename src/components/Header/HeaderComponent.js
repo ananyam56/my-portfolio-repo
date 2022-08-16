@@ -8,7 +8,7 @@ const Header = () => (
     <div class="header_container">
         <div class="logo_container">
         <StaticImage
-        src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Header\ananya maddali-1.png"></StaticImage>
+        src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Header\Ananya Maddali-1.png"></StaticImage>
         </div>
         <div  class="header_sections">
         <Icon className = "header_icon" icon="carbon:education" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section2">Experience</a></h1>
