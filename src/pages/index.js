@@ -18,7 +18,7 @@ export default function HomePage() {
             <div id = "section3" class="projects_line">
             <StaticImage 
             className = {"projects_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\Card\Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
+            src="../Card/Ananya Maddali-1 (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
             <h1 class="my_projects">My <span>&nbsp;Projects</span></h1>
             </div>
             <div class="cards_container">
@@ -30,7 +30,7 @@ export default function HomePage() {
             <div class="skills_line">
             <StaticImage 
             className = {"skills_image"}
-            src="C:\Users\shant\portfolio\gatsby-starter-default\src\components\SkillsGraph\Ananya Maddali-1 (2) (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
+            src="../SkillsGraph/Ananya Maddali-1 (2) (1).png"></StaticImage>&nbsp;&nbsp;&nbsp;&nbsp;
                 <h1 class="skill_heading">My <span>&nbsp;Skills</span></h1>
                 </div>
                 <div class="skill_columns">
