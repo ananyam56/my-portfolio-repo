@@ -38,8 +38,10 @@ export default function HomePage() {
                 </div>
             </div>
             </div>
+            <div class="container_4">
             <div
             id = "section5" variant = "outline">{ContactCard}</div>
+            </div>
             <FooterComponent></FooterComponent>
         </div>
     )

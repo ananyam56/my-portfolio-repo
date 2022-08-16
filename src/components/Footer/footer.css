@@ -4,6 +4,11 @@
 .footer_container {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_7 {
     background-color: #597175;
 }
 .header_item {
@@ -25,7 +30,7 @@
 .footer_logo_container {
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 50px;
     width: 100px;
     height: 100px;
     margin-bottom: 0px;
@@ -33,7 +38,7 @@
 .footer_sections {
         display: flex;
         align-items: center;
-        margin-right: 70px;
+        margin-right: 20px;
 }
 
 @media only screen and (max-width: 800px) {
