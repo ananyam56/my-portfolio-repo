@@ -6,7 +6,7 @@ import {SkillsComponent} from '../components/SkillsGraph/SkillsComponent';
 import { ContactCard } from '../components/Contact/Contact';
 import AboutMeComponent from '../components/AboutMe/AboutMeComponent';
 import { StaticImage } from 'gatsby-plugin-image';
-import FooterComponent from '../components/Footer/footer';
+import FooterComponent from '../components/Footer/Footer';
 
 export default function HomePage() {
     return (
