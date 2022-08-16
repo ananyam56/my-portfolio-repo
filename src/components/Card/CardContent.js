@@ -16,7 +16,7 @@ const cardcontent = [
         title: "Stanford's Inspirit AI",
         date: "July - August 2020",
         content: "I have programming experience utilizing linear regression, natural language processing, and neural networks through this summer workshop. The final project involved combining criminal justice and AI to predict the probability of defendants recommitting crimes; analyzed models involving Random Forests, Logistic Regression, and SQL ",
-        image: <StaticImage src="./Capture1.png" className="project_image"></StaticImage>,
+        image: <StaticImage src="./Capture1.PNG" className="project_image"></StaticImage>,
         link: slides,
     },
     {

@@ -8,7 +8,7 @@ const Header = () => (
     <div class="header_container">
         <div class="logo_container">
         <StaticImage
-        src="./Ananya Maddali-1.png"></StaticImage>
+        src="./Ananya Maddali-1.PNG"></StaticImage>
         </div>
         <div  class="header_sections">
         <Icon className = "header_icon" icon="carbon:education" color="white" width="20" height="20" /><h1 class="header_items"><a href="#section2">Experience</a></h1>
