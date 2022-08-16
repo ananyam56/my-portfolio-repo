@@ -8,7 +8,7 @@ const FooterComponent = () => (
     <div class="footer_container">
         <div class="footer_logo_container">
         <StaticImage
-        src="../Header/Ananya Maddali-1.png"></StaticImage>
+        src="../../images/Ananya Maddali-1.png"></StaticImage>
         </div>
         <div  class="footer_sections">
         <h1 class="header_item"><a href="#section1">About Me</a></h1>
