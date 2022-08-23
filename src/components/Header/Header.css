@@ -26,12 +26,12 @@
     transition-duration: 0.2s;
 }
 .container {
-    background-color: #597175;
+    background-color: #202A44;
 }
 .header_container {
     display: flex;
     justify-content: space-between;
-    background-color: #597175;
+    background-color: #202A44;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

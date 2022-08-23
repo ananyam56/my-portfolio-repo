@@ -24,7 +24,7 @@ html {
 } */
 .jumbotron {
     height: 400px;
-    background-color: #597175;
+    background-color: #202A44;
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
 .jumbotron_subtitle {
