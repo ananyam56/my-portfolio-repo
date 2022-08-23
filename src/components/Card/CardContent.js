@@ -26,7 +26,7 @@ const cardcontent = [
         content: "I worked on a few components for the Spruce Technology website through my internship. I used React, JavaScript, HTML, CSS, and Divi for these modules.",
         image: <StaticImage  src="./Capture2.jpg" className = "project_image"></StaticImage>,
         icon1: <Icon className="project_icon" icon="bxl:invision" color="#f4a733" width="35" height="35" />,
-        icon2: <Icon className="project_icon" icon="la:stripe-s" color="#f4a733" width="35" height="35" />,
+        icon2: <Icon className = "project_icon" icon="codicon:globe" color="#f4a733" width="35" height="35" />,
         icon1link: "https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/21353026",
         icon2link: "https://www.sprucetech.com/",
     },

@@ -20,9 +20,13 @@ const ExperienceSection = () => (
                     <h2 class="stack_heading">Internship at Spruce Technology</h2>
                     <h3 class="stack_subheading">Web Developer, June - August 2022</h3>
                     <ul class="stack_bullets">
-                        <li>Created and updated webpages for clients using <span>HTML, PHP, CSS, and JavaScript</span></li>
-                        <li>Created and updated <span>backend server code</span> to develop functionality for clients</li>
-                        <li>Used the content management system <span>WordPress</span></li>
+                        <li>Transformed <span>Invision</span> prototypes into reusable <span>WordPress</span> page templates</li>
+                        <li>Troubleshooted web applications, diagnosed, and fixed bugs </li>
+                        <li>Created reusable components for the Spruce website using <span>Divi, React, PHP, and JavaScript</span> for admin interfaces</li>
+                        <li>Used <span>Material UI</span> to design responsive components such as buttons and cards</li>
+                        <li>Developed web components in an agile environment</li>
+                        <li>Participated in daily stand-ups, bi-weekly sprint retrospectives and plannings</li>
+                        <li>Created a news blog website, real estate website, blog website, and a corporate website as part of training</li>
                     </ul>
                 </div>
                 <div class="stack_research">
